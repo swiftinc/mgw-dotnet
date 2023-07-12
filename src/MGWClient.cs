@@ -37,7 +37,7 @@ namespace MGWClient
                     try {
                         /* Create signed JWT token to authenticate with MGW. */
                         var token = 
-                            createToken(busAppName, profileId, baseaddress + "/" + url, sharedKey);
+                            createToken(busAppName, profileId, "/" + url, sharedKey);
 
                         client.BaseAddress = new Uri(baseaddress);
 
