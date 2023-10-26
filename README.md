@@ -29,10 +29,6 @@ dotnet add package Microsoft.IdentityModel.Tokens --version 6.11.0
 dotnet run
 ```
 
-## Authors
-
-vijay.mukundhan@swift.com
-
 ## License
 
 Apache v2.0 
